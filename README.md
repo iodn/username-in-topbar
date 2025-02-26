@@ -20,16 +20,16 @@ This extension is compatible with GNOME Shell versions 45, 46, and 47.
 
 1. Clone this repository and navigate to the extension folder:
    ```bash
-   git clone https://github.com/iodn/add-username-toppanel.git
-   cd add-username-toppanel
+   git clone https://github.com/iodn/username-in-topbar.git
+   cd username-in-topbar
    ```
 2. Copy the extension files to the GNOME extensions directory:
    ```bash
-   cp -r add-username-toppanel@neroteam.com ~/.local/share/gnome-shell/extensions/
+   cp -r . ~/.local/share/gnome-shell/extensions/username-in-topbar@neroteam.com
    ```
 3. Enable the extension:
    ```bash
-   gnome-extensions enable add-username-toppanel@neroteam.com
+   gnome-extensions enable username-in-topbar@neroteam.com
    ```
 4. If the extension does not appear, restart GNOME Shell or log out and log back in:
    ```bash
