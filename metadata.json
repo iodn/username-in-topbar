@@ -1,0 +1,21 @@
+{
+  "name": "Username in Top Panel (Right Side)",
+  "description": "Displays the current username in the top panel, positioned at the far right after the power button.",
+  "original-authors": [
+    "Iodn - NeroTeam Labs"
+  ],
+  "maintainers": [
+    "NeroTeam Labs"
+  ],
+  "shell-version": [
+    "47",
+    "46",
+    "45",
+    "44",
+    "43"
+  ],
+  "url": "https://github.com/iodn/username-in-topbar",
+  "uuid": "username-in-topbar@neroteam.com",
+  "version": 14,
+  "settings-schema": "org.gnome.shell.extensions.username-in-topbar"
+}
