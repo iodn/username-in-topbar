@@ -14,8 +14,3 @@ export default class UsernameIndicatorExtension extends Extension {
         this._indicator = null;
     }
 }
-
-GObject.registerClass(
-    {GTypeName: 'UsernameIndicator'},
-    UsernameIndicator
-);
