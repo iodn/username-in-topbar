@@ -1,8 +1,8 @@
-# Add Username in Top Panel (Right Side)
+# Add Username in Top Panel (Extreme Right Side)
 
-This GNOME extension displays the current username in the top panel, positioned at the far right, after the power button.
+This GNOME extension displays the current username in the top panel, positioned at the far right after the power button.
 
-![ScreenShot addon](https://github.com/user-attachments/assets/7f04e25a-e244-4ce8-85cf-8f82981f3472)
+![GNOME Add Username in Top Panel](https://github.com/user-attachments/assets/7f04e25a-e244-4ce8-85cf-8f82981f3472)
 
 
 ## Installation
@@ -18,20 +18,17 @@ This extension is compatible with GNOME Shell versions 45, 46, 47 and 48.
 
 ## Manual Installation from Source
 
-1. Clone this repository and navigate to the extension folder:
+Clone the repository directly into the GNOME extensions directory
    ```bash
-   git clone https://github.com/iodn/username-in-topbar.git
-   cd username-in-topbar
+   git clone https://github.com/iodn/username-in-topbar.git ~/.local/share/gnome-shell/extensions/username-in-topbar@neroteam.com
    ```
-2. Copy the extension files to the GNOME extensions directory:
-   ```bash
-   cp -r . ~/.local/share/gnome-shell/extensions/username-in-topbar@neroteam.com
-   ```
-3. Enable the extension:
+
+Enable the extension
    ```bash
    gnome-extensions enable username-in-topbar@neroteam.com
    ```
-4. If the extension does not appear, restart GNOME Shell or log out and log back in:
-   ```bash
-   gnome-shell --replace &
-   ```
+
+### Notes:
+- If the extension does not appear, restart GNOME Shell:
+  - On **X11**, press <kbd>Alt</kbd> + <kbd>F2</kbd>, type `r`, and press <kbd>Enter</kbd>.
+  - On **Wayland**, **log out and log back in** for changes to take effect.
