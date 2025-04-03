@@ -1,19 +1,19 @@
 {
-  "name": "Username in Top Panel (Right Side)",
   "description": "Displays the current username in the top panel, positioned at the far right after the power button.",
-  "original-authors": [
-    "Iodn - <https://neroteam.com>"
-  ],
   "maintainers": [
     "NeroTeam Security Labs - <https://neroteam.com>"
   ],
+  "name": "Username in Top Panel (Right Side)",
+  "original-authors": [
+    "Iodn - <https://neroteam.com>"
+  ],
   "shell-version": [
-    "48",
-    "47",
+    "45",
     "46",
-    "45"
+    "47",
+    "48"
   ],
   "url": "https://github.com/iodn/username-in-topbar",
   "uuid": "username-in-topbar@neroteam.com",
-  "version": 14
+  "version": 3
 }
