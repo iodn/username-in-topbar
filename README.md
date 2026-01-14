@@ -13,7 +13,7 @@ This GNOME extension displays the current username in the top panel, positioned 
 
 ## Compatibility
 
-This extension is compatible with GNOME Shell versions 45, 46, 47 and 48.
+This extension is compatible with GNOME Shell versions 45, 46, 47, 48 and 49.
 
 
 ## Manual Installation from Source
